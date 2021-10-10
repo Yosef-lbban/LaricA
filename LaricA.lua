@@ -778,7 +778,7 @@ keyboard.inline_keyboard = {
 {text = URL.escape(mute_video1) , callback_data="h"},{text = 'قفل الفيديو', callback_data=user.."/mute_video"},{text = 'فتح الفيديو', callback_data=user.."/unmute_video"},
 },
 {
-{text = '- ⤹ ٰᑎِ𝖊َِ᙭ٍ𝐭 ⏯.', callback_data=user.."/homelocks1"},
+{text = 'التالي', callback_data=user.."/homelocks1"},
 },
 {
 {text = ' رجوع 🔁.', callback_data=user.."/help"},
