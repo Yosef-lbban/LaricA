@@ -769,7 +769,7 @@ keyboard.inline_keyboard = {
 {text = URL.escape(lock_tag1) , callback_data="h"},{text = 'قفل التاك', callback_data=user.."/lock_tag"},{text = 'فتح التاك', callback_data=user.."/unlock_tag"},
 },
 {
-{text = URL.escape(mute_gif1) , callback_data="h"},{text = 'قفل متحركة', callback_data=user.."/mute_gif"},{text = 'فتح متحركة', callback_data=user.."/unmute_gif"},
+{text = URL.escape(mute_gif1) , callback_data="h"},{text = 'قفل المتحركة', callback_data=user.."/mute_gif"},{text = 'فتح المتحركة', callback_data=user.."/unmute_gif"},
 },
 {
 {text = URL.escape(mute_sticker1) , callback_data="h"},{text = 'قفل الملصقات', callback_data=user.."/mute_sticker"},{text = 'فتح الملصقات', callback_data=user.."/unmute_sticker"},
@@ -2303,7 +2303,7 @@ database:del(bot_id.."LaricA:Lock:Video"..msg.chat_id_)
 Reply_Status(msg,msg.sender_user_id_,"unlock","• تم فتح الفيديو")  
 return false
 end 
-if text == "قفل متحركة" and Addictive(msg) then  
+if text == "قفل المتحركة" and Addictive(msg) then  
 if AddChannel(msg.sender_user_id_) == false then
 local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
@@ -2338,25 +2338,25 @@ end
 end
 end
 database:set(bot_id.."LaricA:Lock:Animation"..msg.chat_id_,"del")  
-Reply_Status(msg,msg.sender_user_id_,"lock","• تم قفل متحركة")  
+Reply_Status(msg,msg.sender_user_id_,"lock","• تم قفل المتحركة")  
 return false
 end
-if text == "قفل متحركة بالتقيد" and Addictive(msg) then
+if text == "قفل المتحركة بالتقيد" and Addictive(msg) then
 database:set(bot_id.."LaricA:Lock:Animation"..msg.chat_id_,"ked")  
-Reply_Status(msg,msg.sender_user_id_,"lockkid","• تم قفل متحركة")  
+Reply_Status(msg,msg.sender_user_id_,"lockkid","• تم قفل المتحركة")  
 return false
 end 
-if text == "قفل متحركة بالكتم" and Addictive(msg) then
+if text == "قفل المتحركة بالكتم" and Addictive(msg) then
 database:set(bot_id.."LaricA:Lock:Animation"..msg.chat_id_,"ktm")  
-Reply_Status(msg,msg.sender_user_id_,"lockktm","• تم قفل متحركة")  
+Reply_Status(msg,msg.sender_user_id_,"lockktm","• تم قفل المتحركة")  
 return false
 end 
-if text == "قفل متحركة بالطرد" and Addictive(msg) then
+if text == "قفل المتحركة بالطرد" and Addictive(msg) then
 database:set(bot_id.."LaricA:Lock:Animation"..msg.chat_id_,"kick")  
-Reply_Status(msg,msg.sender_user_id_,"lockkick","• تم قفل متحركة")  
+Reply_Status(msg,msg.sender_user_id_,"lockkick","• تم قفل المتحركة")  
 return false
 end 
-if text == "فتح متحركة" and Addictive(msg) then  
+if text == "فتح المتحركة" and Addictive(msg) then  
 if AddChannel(msg.sender_user_id_) == false then
 local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
@@ -2373,7 +2373,7 @@ end
 return false
 end
 database:del(bot_id.."LaricA:Lock:Animation"..msg.chat_id_)  
-Reply_Status(msg,msg.sender_user_id_,"unlock","• تم فتح متحركة")  
+Reply_Status(msg,msg.sender_user_id_,"unlock","• تم فتح المتحركة")  
 return false
 end 
 if text == "قفل الالعاب" and Addictive(msg) then  
@@ -3096,7 +3096,7 @@ end
 return false
 end
 database:del(bot_id.."LaricA:Mod:User"..msg.chat_id_)
-send(msg.chat_id_, msg.id_, "🗑︙ تم مسح  قائمة الادمنية  ")
+send(msg.chat_id_, msg.id_, "🗑︙ تم مسح  قائمة الادامن  ")
 end
 if text == "مسح المميزين" and Addictive(msg) then  
 if AddChannel(msg.sender_user_id_) == false then
@@ -7838,7 +7838,7 @@ send(msg.chat_id_, msg.id_,"• البوت ليس ادمن يرجى ترقيتي
 return false  
 end
 if data and data.code_ and data.code_ == 400 and data.message_ == "USER_ADMIN_INVALID" then 
-send(msg.chat_id_, msg.id_,"• عذرا لا استطيع طرد ادمنية المجموعة") 
+send(msg.chat_id_, msg.id_,"• عذرا لا استطيع طرد ادامن المجموعة") 
 return false  
 end
 if data and data.ID and data.ID == "Ok" then
@@ -8423,9 +8423,9 @@ database:srem(bot_id.."LaricA:Mod:User"..msg.chat_id_, admins[i].user_id_)
 end
 end
 if num2 == 0 then
-send(msg.chat_id_, msg.id_,"• لا توجد ادمنية ليتم رفعهم") 
+send(msg.chat_id_, msg.id_,"• لا توجد ادامن ليتم رفعهم") 
 else
-send(msg.chat_id_, msg.id_,"• تمت ترقية { "..num2.." } من ادمنية المجموعة") 
+send(msg.chat_id_, msg.id_,"• تمت ترقية { "..num2.." } من ادامن المجموعة") 
 end
 end,nil)   
 end
@@ -10485,7 +10485,7 @@ send(msg.chat_id_, msg.id_, t..'  ━═━═━═━\n• اضغط على ا�
 end
 if text == '/play' then
 if not Constructor(msg) then
-send(msg.chat_id_, msg.id_,'• هاذا الامر خاص بالادامن\n• ارسل {⑩} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,'• هاذا الامر خاص بالادامن\n• ارسل {م6} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -11301,7 +11301,7 @@ end
 return false
 end
 Text = [[
-• اوامر ادمنية المجموعة ...
+• اوامر ادامن المجموعة ...
 ─━─yousef🇸🇦─━─
 • رفع، تنزيل ← مميز
 • تاك للكل ، عدد القروب
@@ -13657,7 +13657,7 @@ end
 elseif Text and Text:match('(.*)/help2') then
 if tonumber(Text:match('(.*)/help2')) == tonumber(data.sender_user_id_) then
 local Teext =[[
-• اوامر ادمنية المجموعة ...
+• اوامر ادامن المجموعة ...
 ─━─yousef🇸🇦─━─
 • رفع، تنزيل ← مميز
 • تاك للكل ، عدد القروب
