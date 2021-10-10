@@ -1,2 +1,2 @@
 # LaricA
-git clone https://github.com/Yosef-lbban/LaricA.git && cd LaricA;chmod +x LaricA.sh;./LaricA.sh install
+git clone https://github.com/Yosef-lbban/LaricA.git && cd LaricA;chmod +x install.sh;./install.sh install
