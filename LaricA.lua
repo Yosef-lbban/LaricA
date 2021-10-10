@@ -11130,8 +11130,8 @@ end
 local Text =[[
 • *قائمة الأوامر في البوت*
 ─━─yousef🇸🇦─━─
-م0 – أوامر الحماية
-م1 – أوامر المنظفين
+م0 – أوامر المنظفين
+م1 – أوامر الحماية
 م2 – أوامر الأدامن
 م3 – أوامر المدراء
 م4 – أوامر المنشئين
@@ -11143,13 +11143,13 @@ local Text =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=msg.sender_user_id_.."/help0"},{text = '•❶•', callback_data=msg.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=msg.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=msg.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=msg.sender_user_id_.."/help2"},{text = '•❸•', callback_data=msg.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=msg.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=msg.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=msg.sender_user_id_.."/help4"},{text = '•❺•', callback_data=msg.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=msg.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=msg.sender_user_id_.."/help5"},
 },
 {
 {text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=msg.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=msg.sender_user_id_.."/homelocks"},
@@ -13577,13 +13577,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13634,13 +13634,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13697,13 +13697,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13752,13 +13752,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13795,13 +13795,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13868,13 +13868,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13897,13 +13897,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
@@ -13940,13 +13940,13 @@ local Teext =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '•⓿•', callback_data=data.sender_user_id_.."/help0"},{text = '•❶•', callback_data=data.sender_user_id_.."/help1"},
+{text = '🇸🇦أوامر المنظفين🇸🇦', callback_data=data.sender_user_id_.."/help0"},{text = '🇸🇦أوامر الحماية🇸🇦', callback_data=data.sender_user_id_.."/help1"},
 },
 {
-{text = '•❷•', callback_data=data.sender_user_id_.."/help2"},{text = '•❸•', callback_data=data.sender_user_id_.."/help3"},
+{text = '🇸🇦أوامر الأدامن🇸🇦', callback_data=data.sender_user_id_.."/help2"},{text = '🇸🇦المدراء🇸🇦', callback_data=data.sender_user_id_.."/help3"},
 },
 {
-{text = '•❹•', callback_data=data.sender_user_id_.."/help4"},{text = '•❺•', callback_data=data.sender_user_id_.."/help5"},
+{text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
