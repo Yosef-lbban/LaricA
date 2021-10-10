@@ -13586,7 +13586,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
@@ -13643,7 +13643,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
@@ -13706,7 +13706,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
@@ -13761,7 +13761,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
@@ -13804,7 +13804,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
@@ -13877,7 +13877,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
@@ -13906,7 +13906,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 { 
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
@@ -13949,7 +13949,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=data.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=data.sender_user_id_.."/help5"},
 },
 {
-{text = '•❻•', callback_data=data.sender_user_id_.."/play"},
+{text = 'أوامر الأعضاء', callback_data=data.sender_user_id_.."/play"},
 },
 {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
