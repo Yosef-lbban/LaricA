@@ -11046,7 +11046,7 @@ send(msg.chat_id_,msg.id_,'• لا يمكنك استخدام البوت\n• ع
 return false 
 end
 Text = [[
-*���������* [��������](t.me/yousef_labban1)
+*قناة البوت* [اشترك في القناة](t.me/yousef_labban1)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -11054,7 +11054,7 @@ keyboard.inline_keyboard = {
 {text = 'سورس يوسف',url="https://t.me/yousef_labban1"},
 },
 {
-{text = '���������',url="https://t.me/yousef_labban"},
+{text = 'قناة البوت',url="https://t.me/yousef_labban"},
 },
 } 
 local msg_id = msg.id_/2097152/0.5
@@ -11765,7 +11765,7 @@ return false
 end
 if text == 'قناة السورس 📡 .' then
 Text = [[
-*���������* [��������](t.me/yousef_labban1)
+*قناة البوت* [اشترك في القناة](t.me/yousef_labban1)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -11773,7 +11773,7 @@ keyboard.inline_keyboard = {
 {text = 'سورس يوسف',url="https://t.me/yousef_labban1"},
 },
 {
-{text = '���������',url="https://t.me/yousef_labban"},
+{text = 'قناة البوت',url="https://t.me/yousef_labban"},
 },
 } 
 local msg_id = msg.id_/2097152/0.5
