@@ -718,7 +718,7 @@ keyboard.inline_keyboard = {
 {text = '. ⤹𝖲𝗄ᴉ𝔭 .', callback_data=user.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=user.."/help"},
+{text = ' رجوع 🔁.', callback_data=user.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..chat..'&text='..URL.escape(Texti)..'&message_id='..msgid..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -781,7 +781,7 @@ keyboard.inline_keyboard = {
 {text = '- ⤹ ٰᑎِ𝖊َِ᙭ٍ𝐭 ⏯.', callback_data=user.."/homelocks1"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=user.."/help"},
+{text = ' رجوع 🔁.', callback_data=user.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..chat..'&text='..URL.escape(Texti)..'&message_id='..msgid..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13338,7 +13338,7 @@ keyboard.inline_keyboard = {
 {text = 'تفعيل الانستا', callback_data=data.sender_user_id_.."/LaricA:insta_bot"},{text = 'تعطيل الانستا', callback_data=data.sender_user_id_.."/unLaricA:insta_bot"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Textedit)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -13589,7 +13589,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13649,7 +13649,7 @@ keyboard.inline_keyboard = {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13712,7 +13712,7 @@ keyboard.inline_keyboard = {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13767,7 +13767,7 @@ keyboard.inline_keyboard = {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13810,7 +13810,7 @@ keyboard.inline_keyboard = {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13883,7 +13883,7 @@ keyboard.inline_keyboard = {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13955,7 +13955,7 @@ keyboard.inline_keyboard = {
 {text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
-{text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
+{text = ' رجوع 🔁.', callback_data=data.sender_user_id_.."/help"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
