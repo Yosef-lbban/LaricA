@@ -6073,7 +6073,7 @@ end
 end
 DeleteMessage(msg.chat_id_,Msgs2)
 end,nil)  
-send(msg.chat_id_, msg.id_,'•  تم تنظيف الميديا المعدله')
+send(msg.chat_id_, msg.id_,'•  تم تنظيف الميديا المعدلة')
 end
 if not database:get(bot_id.."y:msg:media"..msg.chat_id_) and (msg.content_.text_) or (msg.content_.animation_) or (msg.content_.photo_) or (msg.content_.video_) or (msg.content_.document) or (msg.content_.sticker_) or (msg.content_.voice_) or (msg.content_.audio_) then    
 local gmedia = database:scard(bot_id.."msg:media"..msg.chat_id_)  
@@ -8538,7 +8538,7 @@ return false end
 end
 if text and text:match("^(.*)$") then
 if database:get(bot_id.."botss:LaricA:Set:On"..msg.sender_user_id_..":"..msg.chat_id_) == "true" then
-send(msg.chat_id_, msg.id_,"تم حذف الرد من ردود المتعدده")
+send(msg.chat_id_, msg.id_,"تم حذف الرد من ردود المتعددة")
 database:del(bot_id..'botss:LaricA:Add:Rd:Sudo:Text'..text)
 database:del(bot_id..'botss:LaricA:Add:Rd:Sudo:Text1'..text)
 database:del(bot_id..'botss:LaricA:Add:Rd:Sudo:Text2'..text)
@@ -8547,7 +8547,7 @@ database:srem(bot_id.."botss:LaricA:List:Rd:Sudo", text)
 return false
 end
 end
-if text == ("مسح الردود المتعدده") and DevLaricA(msg) then
+if text == ("مسح الردود المتعددة") and DevLaricA(msg) then
  
 local list = database:smembers(bot_id.."botss:LaricA:List:Rd:Sudo")
 for k,v in pairs(list) do  
@@ -8556,18 +8556,18 @@ database:del(bot_id.."botss:LaricA:Add:Rd:Sudo:Text1"..v)
 database:del(bot_id.."botss:LaricA:Add:Rd:Sudo:Text2"..v)   
 database:del(bot_id.."botss:LaricA:List:Rd:Sudo")
 end
-send(msg.chat_id_, msg.id_,"تم حذف ردود المتعدده")
+send(msg.chat_id_, msg.id_,"تم حذف ردود المتعددة")
 end
-if text == ("الردود المتعدده") and DevLaricA(msg) then
+if text == ("الردود المتعددة") and DevLaricA(msg) then
  
 local list = database:smembers(bot_id.."botss:LaricA:List:Rd:Sudo")
-text = "\nقائمة ردود المتعدده \n━━━━━━━━\n"
+text = "\nقائمة ردود المتعددة \n━━━━━━━━\n"
 for k,v in pairs(list) do
 db = "رساله "
 text = text..""..k.." => {"..v.."} => {"..db.."}\n"
 end
 if #list == 0 then
-text = "لا توجد ردود متعدده"
+text = "لا توجد ردود متعددة"
 end
 send(msg.chat_id_, msg.id_,"["..text.."]")
 end
@@ -10345,7 +10345,7 @@ end
 end
 DeleteMessage(msg.chat_id_,Msgs2)
 end,nil)  
-send(msg.chat_id_, msg.id_,'• تم حذف جميع الرسائل المعدله')
+send(msg.chat_id_, msg.id_,'• تم حذف جميع الرسائل المعدلة')
 end
 if text == "تنظيف القروبات" and DevLaricA(msg) then
 local group = database:smembers(bot_id..'LaricA:Chek:Groups')  
