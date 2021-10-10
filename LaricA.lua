@@ -9016,7 +9016,7 @@ kickme = "✘"
 end
 Num_Flood = database:hget(bot_id.."LaricA:flooding:settings:"..msg.chat_id_,"floodmax") or 0
 local text = 
-"*\n• ااعدادات المجموعة "..
+"*\n• إعدادات المجموعة  "..
 "\n  ━═━═━═━"..
 "\n• علامة ال {✓} تعني مفعل"..
 "\n• علامة ال {✘} تعني معطل"..
