@@ -715,7 +715,7 @@ keyboard.inline_keyboard = {
 {text = URL.escape(mute_inline1) , callback_data="h"},{text = 'قفل الانلاين', callback_data=user.."/mute_inline"},{text = 'فتح الانلاين', callback_data=user.."/unmute_inline"},
 },
 {
-{text = '. ⤹𝖲𝗄ᴉ𝔭 .', callback_data=user.."/homelocks"},
+{text = 'التالي', callback_data=user.."/homelocks"},
 },
 {
 {text = ' رجوع 🔁.', callback_data=user.."/help"},
