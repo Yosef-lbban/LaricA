@@ -11152,7 +11152,7 @@ keyboard.inline_keyboard = {
 {text = '🇸🇦المنشئين🇸🇦', callback_data=msg.sender_user_id_.."/help4"},{text = '🇸🇦المطور يوسف🇸🇦', callback_data=msg.sender_user_id_.."/help5"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=msg.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=msg.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=msg.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=msg.sender_user_id_.."/homelocks"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -13646,7 +13646,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
 {text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
@@ -13709,7 +13709,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
 {text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
@@ -13764,7 +13764,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
 {text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
@@ -13807,7 +13807,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
 {text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
@@ -13880,7 +13880,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
 {text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
@@ -13909,7 +13909,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 { 
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -13952,7 +13952,7 @@ keyboard.inline_keyboard = {
 {text = '•❻•', callback_data=data.sender_user_id_.."/play"},
 },
 {
-{text = '𝖽𝗂𝗌𝗋𝗎𝗉𝗍𝗂𝗈𝗇 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homeaddwd"},{text = '𝗅𝗈𝖼𝗄 𝗈𝗋𝖽𝖾𝗋𝗌', callback_data=data.sender_user_id_.."/homelocks"},
+{text = 'أوامر التعطيل والتفعيل', callback_data=data.sender_user_id_.."/homeaddwd"},{text = 'أوامر القفل', callback_data=data.sender_user_id_.."/homelocks"},
 },
 {
 {text = ' �𝖾𝗏𝗒𝗈����ɴ 🔁.', callback_data=data.sender_user_id_.."/help"},
