@@ -13891,8 +13891,8 @@ end
 elseif Text and Text:match('(.*)/help') then
 if tonumber(Text:match('(.*)/help')) == tonumber(data.sender_user_id_) then
 local Teext =[[
-𝙒𝙚𝙡𝘾𝙤𝙢𝙚 𝙏𝙤 𝙎𝙤𝙪𝙍𝙘𝙚 [يوسف](t.me/yousef_labban1)
-𝙃𝙚𝙧𝙚 𝙞𝙎 𝙩𝙃𝙚 𝘾𝙤𝙉𝙩𝙧𝙤𝙡 𝙋𝙖𝙉𝙚𝙡 ⤵️ 
+قناة البوت [يوسف](t.me/yousef_labban1)
+اليك لوحة التحكم ⤵️ 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
